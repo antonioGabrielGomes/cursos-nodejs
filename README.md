@@ -1,2 +1,2 @@
 # cursos-nodejs
-Repositório para salvar os código dos curso de nodejs alura
+Repositório para salvar os códigos dos cursos de nodejs alura
