@@ -30,10 +30,7 @@ export class NovoUsuarioComponent implements OnInit {
       fullName: ['', [
         Validators.required, Validators.minLength(4)
       ]],
-      userName: ['',
-        [minusculoValidator],
-        [this.usuarioExistenteService.usuarioJaExiste()]
-      ],
+      userName: ['',   [minusculoValidator], [this.usuarioExistenteService.usuarioJaExiste()] ],
       password: ['']
     }, {
       validators:

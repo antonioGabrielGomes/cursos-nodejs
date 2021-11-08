@@ -5,6 +5,6 @@ export function minusculoValidator(control: AbstractControl) {
     if (valor !== valor.toLowerCase()) {
         return  { minusculo: true }
     } else {
-        return null 
+        return null  
     }
 } 

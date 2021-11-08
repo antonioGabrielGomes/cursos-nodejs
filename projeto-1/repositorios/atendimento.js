@@ -1,6 +1,6 @@
 const query = require('../infraestrutura/database/queries')
 
-class Atendimento {
+class Atendimento { 
 
     adiciona(atendimento) {
         const sql = 'INSERT INTO Atendimentos SET ?'

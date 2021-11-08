@@ -2,7 +2,7 @@ const moment = require('moment')
 const axios = require('axios')
 const conexao = require('../infraestrutura/database/conexao')
 const respositorio = require("../repositorios/atendimento")
-
+ 
 
 class Atendimento {
 
